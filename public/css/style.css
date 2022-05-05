@@ -1,5 +1,20 @@
 :root{
     --bgc-for-card:#F3F3F3;
+
+}
+.main-colors{
+    filter: invert(100%) sepia(2%) saturate(4%) hue-rotate(18deg) brightness(103%) contrast(100%);
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    max-width:1000px;
+    z-index:1000;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .background-back{
     /*background: rgb(255,255,255);*/
