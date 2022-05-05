@@ -18,10 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="border-bottom: 2px solid hotpink;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
 {{--                    {{ config('app.name', 'Laravel') }}--}}
@@ -48,7 +50,10 @@
 {{--                        </li>--}}
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/" style="color: hotpink;">О нас</a>
+                            <a class="nav-link" href="/" style="color: hotpink;">
+                                <img src="public/images/svg/list-paper-hand-drawn-symbol-svgrepo-com.svg" alt="My SVG Icon" style="width: 25px; filter: invert(57%) sepia(54%) saturate(1447%) hue-rotate(296deg) brightness(102%) contrast(101%);">
+                                О нас
+                            </a>
                         </li>
 
 
@@ -57,13 +62,20 @@
                                 <li class="nav-item">
 {{--                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>--}}
 
-                                    <a class="nav-link" href="{{ route('login') }}" style="color: hotpink;">Войти</a>
+                                    <a class="nav-link" href="{{ route('login') }}" style="color: hotpink;">
+
+                                        <img src="public/images/svg/next-user-hand-drawn-interface-symbol-svgrepo-com.svg" alt="My SVG Icon" style="width: 25px; filter: invert(57%) sepia(54%) saturate(1447%) hue-rotate(296deg) brightness(102%) contrast(101%);">
+                                        Войти
+                                    </a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}" style="color: hotpink;">Регистрация</a>
+                                    <a class="nav-link" href="{{ route('register') }}" style="color: hotpink;">
+                                        <img src="public/images/svg/users-couple-hand-drawn-outlines-svgrepo-com.svg" alt="My SVG Icon" style="width: 25px; filter: invert(57%) sepia(54%) saturate(1447%) hue-rotate(296deg) brightness(102%) contrast(101%);">
+                                        Регистрация
+                                    </a>
                                 </li>
                             @endif
                         @else
@@ -92,7 +104,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 background-back ">
             @yield('content')
         </main>
     </div>

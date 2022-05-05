@@ -1,0 +1,25 @@
+:root{
+    --bgc-for-card:#F3F3F3;
+}
+.background-back{
+    /*background: rgb(255,255,255);*/
+    /*background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,98,245,1) 43%, rgba(255,247,133,1) 80%);*/
+
+    /*background: rgb(255,255,255);*/
+    /*background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,168,250,1) 0%, rgba(255,248,143,1) 100%);*/
+
+    background: rgb(255,189,251);
+    background: linear-gradient(50deg, rgba(255,189,251,1) 40%, rgba(255,250,166,1) 100%);
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.glasses-borders{
+    border-radius: 20px;
+    border: 5px solid var(--bgc-for-card);
+}
