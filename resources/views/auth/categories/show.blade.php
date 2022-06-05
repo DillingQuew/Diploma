@@ -3,8 +3,8 @@
 @section('title', 'Категория ' . $category->name)
 
 @section('content')
-    <div class="col-md-12">
-        <h1>Категория Бытовая техника</h1>
+    <div class="col-md-12 glass p-3 overflow-auto" >
+        <h1>{{ $category->name }}</h1>
         <table class="table">
             <tbody>
             <tr>
@@ -31,11 +31,7 @@
                 <td>Описание</td>
                 <td>{{ $category->description }}</td>
             </tr>
-            <tr>
-                <td>Картинка</td>
-                <td><img src="{{ Storage::url($category->image) }}"
-                         height="240px"></td>
-            </tr>
+         
             <tr>
                 <td>Кол-во товаров</td>
                 <td>{{ $category->products->count() }}</td>

@@ -16,7 +16,13 @@
                         <label for="name" class="col-md-4 col-form-label text-md-right">Имя</label>
 
                         <div class="col-md-6">
-                            <input id="name" type="text" class="form-control" name="name"
+                            <input 
+                            style="border:1px solid gray; 
+                                          padding: 6.75 13.5px;
+                                          border-radius: 20px !important;
+                                          background-color:white;
+                                          margin:0;"
+                            id="name" type="text" class="form-control" name="name"
                                    value="" required autofocus>
 
                         </div>
@@ -26,7 +32,13 @@
                         <label for="email" class="col-md-4 col-form-label text-md-right">E-Mail</label>
 
                         <div class="col-md-6">
-                            <input id="email" type="email" class="form-control"
+                            <input
+                            style="border:1px solid gray; 
+                                          padding: 6.75 13.5px;
+                                          border-radius: 20px !important;
+                                          background-color:white;
+                                          margin:0;"
+                            id="email" type="email" class="form-control"
                                    name="email" value="" required>
 
                         </div>
@@ -36,7 +48,13 @@
                         <label for="password" class="col-md-4 col-form-label text-md-right">Пароль</label>
 
                         <div class="col-md-6">
-                            <input id="password" type="password" class="form-control"
+                            <input
+                            style="border:1px solid gray; 
+                                          padding: 6.75 13.5px;
+                                          border-radius: 20px !important;
+                                          background-color:white;
+                                          margin:0;"
+                            id="password" type="password" class="form-control"
                                    name="password" required>
 
                         </div>
@@ -47,14 +65,20 @@
                             пароль</label>
 
                         <div class="col-md-6">
-                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation"
+                            <input 
+                            style="border:1px solid gray; 
+                                          padding: 6.75 13.5px;
+                                          border-radius: 20px !important;
+                                          background-color:white;
+                                          margin:0;"
+                            id="password-confirm" type="password" class="form-control" name="password_confirmation"
                                    required>
                         </div>
                     </div>
 
                     <div class="form-group row mb-0">
                         <div class="col-md-8 offset-md-4">
-                            <button type="submit" class="btn btn-primary">
+                            <button type="submit" class="btn btn-primary w-100">
                                 Зарегистрироваться
                             </button>
                         </div>

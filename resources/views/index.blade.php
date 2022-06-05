@@ -21,11 +21,19 @@
                 <span class="d-inline fw-bold">Цена</span>
                 <li class="nav-item d-inline">
                      <span class="">
-                        <label for="price_from">
-                            <input class="input-group" type="text" placeholder="От" name="price_from" id="price_from" size="6" value="{{ request()->price_from}}">
+                        <label for="price_from" style="">
+                            <input style="border:1px solid gray; 
+                          padding: 6.75 13.5px;
+                            border-radius: 20px;
+                            background-color:white;
+                            margin:0;" class="input-cost" type="text" placeholder="От" name="price_from" id="price_from" size="6" value="{{ request()->price_from}}">
                         </label>
                           <label class="" for="price_to">
-                            <input class="input-group" type="text" placeholder="До "name="price_to" id="price_to" size="6"  value="{{ request()->price_to }}">
+                            <input style="border:1px solid gray; 
+                            padding: 6.75 13.5px;
+                            border-radius: 20px;
+                            background-color:white;
+                            margin:0;" class="input-cost" type="text" placeholder="До "name="price_to" id="price_to" size="6"  value="{{ request()->price_to }}">
                         </label>
                     </span>
                 </li>
@@ -35,7 +43,7 @@
                 <li class="nav-item d-inline">
                     <span class="">
                          <label for="hit">
-                            <input type="checkbox" class="custom-checkbox" name="hit" id="hit" @if(request()->has('hit')) checked @endif> Хит
+                            <input placeholder="Хит" style="align-items:baseline; height: 18px;" type="checkbox" class="custom-checkbox" name="hit" id="hit" @if(request()->has('hit')) checked @endif> Хит
                         </label>
                     </span>
                 </li>
@@ -43,7 +51,7 @@
                 <li class="nav-item d-inline">
                     <span class="">
                         <label for="new">
-                            <input type="checkbox"  class="custom-checkbox" name="new" id="new" @if(request()->has('new')) checked @endif> Новинка
+                            <input style="width:18px; height: 18px;" type="checkbox"  class="custom-checkbox" name="new" id="new" @if(request()->has('new')) checked @endif> Новинка
                         </label>
                     </span>
                 </li>
@@ -51,7 +59,7 @@
                 <li class="nav-item d-inline">
                      <span class="">
                           <label for="recommend">
-                                <input type="checkbox"  class="custom-checkbox" name="recommend" id="recommend" @if(request()->has('recommend')) checked @endif> Рекомендуем
+                                <input style="width:18px; height: 18px;" type="checkbox"  class="custom-checkbox" name="recommend" id="recommend" @if(request()->has('recommend')) checked @endif> Рекомендуем
                           </label>
                     </span>
                 </li>
