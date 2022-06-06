@@ -22,8 +22,9 @@
                 <li class="nav-item d-inline">
                      <span class="">
                         <label for="price_from" style="">
-                            <input style="border:1px solid gray; 
-                          padding: 6.75 13.5px;
+                            <input style="
+                            border:1px solid gray; 
+                            padding: 6.75 13.5px;
                             border-radius: 20px;
                             background-color:white;
                             margin:0;" class="input-cost" type="text" placeholder="От" name="price_from" id="price_from" size="6" value="{{ request()->price_from}}">
@@ -43,7 +44,7 @@
                 <li class="nav-item d-inline">
                     <span class="">
                          <label for="hit">
-                            <input placeholder="Хит" style="align-items:baseline; height: 18px;" type="checkbox" class="custom-checkbox" name="hit" id="hit" @if(request()->has('hit')) checked @endif> Хит
+                            <input placeholder="Хит" style="align-items:baseline; height: 18px; width:18px;" type="checkbox" class="custom-checkbox" name="hit" id="hit" @if(request()->has('hit')) checked @endif> Хит
                         </label>
                     </span>
                 </li>
