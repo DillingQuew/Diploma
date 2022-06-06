@@ -34,17 +34,17 @@
 {{--                            <img class="position-absolute absolute-center" src="/images/logo/ruler.svg" alt="My SVG Icon" style="transform:rotate(45deg); z-index:1; padding:0;">--}}
                         </div>
                     </a>
-                    <button class="navbar-toggler main-colors" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}" style="padding:0px 5px 5px 0px;">
+                    <button class="navbar-toggler main-colors" style="border:none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}" style="padding:0px 5px 5px 0px;">
                     <span class="navbar-toggler-icon">
                          <img src="/images/svg/list-menu-hand-drawn-symbol-of-three-thin-rectangles-outlines-svgrepo-com.svg" alt="My SVG Icon" style="width: 35px; padding:0;">
                     </span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="/about" style="color: var(--main-color)">
-                                    <img class="main-colors" src="/images/svg/list-paper-hand-drawn-symbol-svgrepo-com.svg" alt="My SVG Icon" style="width: 25px;">
+                                    <img class="main-colors" src="/images/svg/list-paper-hand-drawn-symbol-svgrepo-com.svg" alt="My SVG Icon" style="width: 25px; ">
                                     О нас
                                 </a>
                             </li>

@@ -8,6 +8,9 @@
     --danger:#b62837;
     --success:#329667;
 }
+h1,h2,h3, div, span{
+   color:var(--text-color);
+}
 @media(max-width: 1000px){
     a, p, span, div{
         font-size: 103%;
@@ -241,9 +244,10 @@ input[type=submit]:hover {
     top: 0; left: 0; bottom: 0; right: 0;
 }
 .glass{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(35px);
-    -webkit-backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px); */
+    background-color:#faf3ed;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.37);
