@@ -4,9 +4,14 @@
 
 @section('content')
     <div class="glass p-3">
+       <div>
+          <a href="{{ route('index') }}">
+          <img src="/images/svg/back-button-svgrepo-com.svg" alt="" style="width:40px;">
+          </a>
+      </div>
         <h1>Корзина</h1>
         <p>Оформление заказа</p>
-        <div class="panel">
+        <div class="panel overflow-auto">
             <table class="table table-striped">
                 <thead>
                 <tr>
