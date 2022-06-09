@@ -6,7 +6,7 @@
     <div class="col-md-12">
         <h1>{{ $product->name }}</h1>
             <div style="overflow-x: auto;">
-                <table class="table">
+                <table class="table glass">
                     <tbody>
                     <tr>
                         <th>
