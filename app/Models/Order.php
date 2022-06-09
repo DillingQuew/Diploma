@@ -44,7 +44,7 @@ class Order extends Model
     public function saveOrder($name, $phone)
     {
         if ($this->status == 0) {
-            $this->name = $name;
+            $this->name = auth()->user()->name;
             $this->phone = $phone;
             $this->status = 1;
             $this->save();
